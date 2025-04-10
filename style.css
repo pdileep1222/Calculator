@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #dfdffc;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    background: #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #04940b;
+}
+
+button:active {
+    background: #3e8e41;
+}
+
+button:nth-child(1), button:nth-child(2) {
+    background: #ff5252;
+}
+
+button:nth-child(1):hover, button:nth-child(2):hover {
+    background: #ff0000;
+}
+
+button:last-child {
+    background: #338fda;
+}
+
+button:last-child:hover {
+    background: #1976D2;
+}
+#result{
+    width: 100%;
+    padding: 15px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
